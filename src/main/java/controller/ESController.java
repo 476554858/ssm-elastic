@@ -106,7 +106,7 @@ public class ESController {
         long begin = System.currentTimeMillis();
         searchService.batchSave();
         long end = System.currentTimeMillis();
-        System.out.println("耗时：："+(end-begin));
+        System.out.println("耗时:::"+(end-begin));
         return null;
     }
 
